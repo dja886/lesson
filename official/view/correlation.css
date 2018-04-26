@@ -1,0 +1,483 @@
+.holistic {
+    position:relative;
+    min-width:1300px;
+}
+/*导航菜单end*/
+/*主体部分begin*/
+.container{
+    width:100%;
+    height: 660px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.headBg{
+    height: 660px;
+    background:url(../images/correlationpage/headBg.png) 0 0 no-repeat;
+}
+/*关于我们begin*/
+.asRegards{
+    padding:70px 0px;
+    margin-top:550px;
+}
+.asRegards_container{
+    width:90%;
+    margin:0 auto;
+}
+// .asRegards_top span:nth-child(1){
+//     width:8px;
+//     height: 30px;
+//     background:#eeab36;
+//     margin-right:20px;
+//     display:inline-block;
+// }
+.asRegards_top span:nth-child(2){
+    font-size:36px;
+    font-family:"思源黑体";
+    color:#333;
+    font-weight:bold;
+}
+.asRegards_center{
+    margin-top:50px;
+}
+.asRegards_center{
+    font-size:22px;
+    color:#666;
+    font-family:"思源黑体";
+    line-height:35px;
+    letter-spacing:3px;
+}
+/*关于我们end*/
+/*发展历程begin*/
+.evolution{
+    height: 880px;
+    padding:100px 0px;
+    background:#4c4c4c;
+}
+.evolution_container{
+    width:90%;
+    margin:0 auto;
+}
+.evolution_container_top_left{
+    width:26%;
+}
+.evolution_container_top_left span:nth-child(2){
+    font-size:36px;
+    font-family:"思源黑体";
+    color:#fff;
+    font-weight:bold;
+}
+.evolution_container_top_right{
+    width:70%;
+    float:left;
+}
+.evolution_container_bottom{
+    margin-top:50px;
+}
+.evolution_container_bottom_left{
+    width:20%;
+}
+.evolution_container_bottom_left span:nth-child(2){
+    font-size:36px;
+    color:#fff;
+    font-family:"思源黑体";
+    font-weight:bold;
+}
+.evolution_container_bottom_right{
+    width:70%;
+    margin-top:60px;
+}
+.evolution_container_bottom_right_top div{
+    width:30%;
+    height: 100%;
+    float:left;
+    text-align:center;
+    cursor:pointer;
+}
+.evolution_container_bottom_right_top div span{
+    width:100px;
+    height: 100px;
+    display:inline-block;
+    background:url(../images/correlationpage/culture.png) -218px 0 no-repeat;
+}
+.evolution_container_bottom_right_top div p{
+    font-size:28px;
+    color:#fff;
+    font-family:"思源黑体";
+    font-weight:bold;
+    margin-top:30px;
+}
+.evolution_container_bottom_right_bottom{
+    margin-top:30px;
+}
+#bgTwo{
+     width:100px;
+    height: 100px;
+    display:inline-block;
+    background:url(../images/correlationpage/culture.png) 0px 0px no-repeat;
+}
+#bgThree{
+     width:100px;
+    height: 100px;
+    display:inline-block;
+    background:url(../images/correlationpage/culture.png) -107px 0px no-repeat;
+}
+.evolution_container_bottom_right_bottom p{
+    // width:95%;
+    font-size:24px;
+    color:#ccc;
+    font-family:"思源黑体";
+    display:none;
+}
+#VideoOne{
+	cursor:pointer;
+}
+
+/*发展历程end*/
+/*业务框架begin*/
+.business{
+    height: 880px;
+    padding:100px 0px;
+}
+.business_container{
+    width:90%;
+    margin:0 auto;
+}
+.business_container_top span:nth-child(2){
+    font-size:36px;
+    font-family:"思源黑体";
+    font-weight:bold;
+    color:#333;
+}
+.business_container_bottom{
+    margin-top:50px;
+}
+.business_container_bottom_one{
+    width:30%;
+    height: 786px;
+    background:url(../images/correlationpage/cultivateOne.png) 0 0 no-repeat;
+    margin-right:25px;
+}
+.business_container_bottom_one_within{
+    width:60%;
+    height: 70%;
+    margin-top: 50px;
+    margin-left:50px;
+    background:rgba(250,250,250,.4);
+    padding-top:50px;
+    padding-left:30px;
+}
+.business_container_bottom_one_within p{
+    letter-spacing:2px;
+}
+.business_container_bottom_one_within p:nth-child(1){
+    font-size:30px;
+    color:#fffefe;
+    font-weight:bold;
+    font-family:"思源黑体";
+}
+.business_container_bottom_one_within p:nth-child(2){
+    width:100px;
+    border:1px solid #fffefe;
+    margin-top:20px;
+}
+.business_container_bottom_one_within p:nth-child(3){
+    font-size:24px;
+    color:#fffefe;
+    font-family:"思源黑体";
+    margin-top:30px;
+}
+.business_container_bottom_one_within p:nth-child(4){
+    font-size:24px;
+    color:#fffefe;
+    font-family:"思源黑体";
+    margin-top:24px;
+}
+.business_container_bottom_one_within p:nth-child(5){
+    font-size:24px;
+    color:#fffefe;
+    font-family:"思源黑体";
+    margin-top:24px;
+}
+.business_container_bottom_one_within p:nth-child(6){
+    font-size:24px;
+    color:#fffefe;
+    font-family:"思源黑体";
+    margin-top:26px;
+}
+.business_container_bottom_one_within p:nth-child(7){
+    font-size:24px;
+    color:#fffefe;
+    font-family:"思源黑体";
+    margin-top:26px;
+}
+.business_container_bottom_one_within p:nth-child(8){
+    font-size:24px;
+    color:#fffefe;
+    font-family:"思源黑体";
+    margin-top:26px;
+}
+#business_container_two{
+    background:url(../images/correlationpage/cultivateTwo.png) 0 0 no-repeat;
+}
+#business_container_three{
+    background:url(../images/correlationpage/cultivateThree.png) 0 0 no-repeat;
+}
+/*业务框架end*/
+/* 我们的团队begin*/
+.group{
+    height:800px;
+    background:#4C4C4C;
+    padding:140px 0px;
+}
+.group_container{
+    width:90%;
+    margin:0 auto;
+}
+.group_container_top span:nth-child(2){
+    font-size:36px;
+    font-weight:bold;
+    font-family:"思源黑体";
+    color:#fff;
+}
+.group_container_center{
+    // width:95%;
+    margin-top:50px;
+}
+.group_container_center_one{
+    width:21%;
+    height:250px;
+    border:8px solid rgba(0,0,0,.2);
+    margin:0px 10px 50px 10px;
+    transition:all .5s ;
+    position:relative;
+}
+.group_container_center_one img:hover{
+    position:absolute;
+    top:-1px;
+    box-shadow:0px 10px 30px rgba(232,232,232,.2);
+
+
+}
+.group_container_center_one img{
+    width:100%;
+    height: 100%;
+}
+.group_container_bottom p{
+    font-size:24px;
+    color:#ccc;
+    font-family:"思源黑体";
+}
+/* 我们的团队end*/
+/*合作机构begin*/
+.collaborate{
+    height: 620px;
+    padding:140px 0px;
+    // min-width:1600px;
+}
+.collaborate_container{
+    width:90%;
+    margin:0 auto;
+}
+.collaborate_container_top span:nth-child(2){
+    font-family:"思源黑体";
+    font-size:36px;
+    font-weight:bold;
+    color:#333;
+}
+.collaborate_container_center{
+    width:90%;
+    margin:50px auto 0px;
+}
+.collaborate_container_center ul{
+    text-align:center;
+}
+.collaborate_container_center ul li{
+    width:227px;
+    height:77px;
+    float:left;
+    margin:0px 1.7% 58px 1.7% ;
+    background:url(../images/correlationpage/organization.png) 0px 0px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(2){
+    background:url(../images/correlationpage/organization.png) -237px 0px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(3){
+    background:url(../images/correlationpage/organization.png) -474px 0px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(4){
+    background:url(../images/correlationpage/organization.png) -711px 0px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(5){
+    background:url(../images/correlationpage/organization.png) 0px -87px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(6){
+    background:url(../images/correlationpage/organization.png) -237px -87px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(7){
+    background:url(../images/correlationpage/organization.png) -474px -87px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(8){
+    background:url(../images/correlationpage/organization.png) -711px -87px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(9){
+    background:url(../images/correlationpage/organization.png) 0px -174px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(10){
+    background:url(../images/correlationpage/organization.png) -237px -174px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(11){
+    background:url(../images/correlationpage/organization.png) -474px -174px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(12){
+    background:url(../images/correlationpage/organization.png) -711px -174px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(13){
+    background:url(../images/correlationpage/organization.png) -0px -261px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(14){
+    background:url(../images/correlationpage/organization.png) -237px -261px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(15){
+    background:url(../images/correlationpage/organization.png) -474px -261px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(16){
+    background:url(../images/correlationpage/organization.png) -711px -261px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(17){
+    background:url(../images/correlationpage/organization.png) -0px -348px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(18){
+    background:url(../images/correlationpage/organization.png) -237px -352px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(19){
+    background:url(../images/correlationpage/organization.png) -474px -352px no-repeat;
+}
+.collaborate_container_center ul li:nth-child(20){
+    background:url(../images/correlationpage/organization.png) -711px -352px no-repeat;
+}
+/*合作机构end*/
+/*公司动态begin*/
+.dynamic{
+    height: 600px;
+    background: #4C4C4C;
+    padding:140px 0px;
+}
+.dynamic_container{
+    width:90%;
+    margin:0 auto;
+}
+.dynamic_container_top span:nth-child(2){
+    font-size:36px;
+    font-family:"思源黑体";
+    font-weight:bold;
+    color:#fff;
+}
+.dynamic_container_bottom{
+    position:relative;
+}
+.dynamic_container_bottom_one{
+    width:20%;
+    margin-top:50px;
+    margin-left:25px;
+    margin-right:25px;
+    overflow:hidden;
+    vertical-align:middle
+}
+.dynamic_container_bottom_one p{
+    height: 80px;
+    line-height:80px;
+    // text-align:center;
+    font-size:30px;
+    font-family:"思源黑体";
+    font-weight:bold;
+    color:#fff;
+    margin-top:20px;
+
+}
+.dynamic_container_bottom_one img{
+    width:100%;
+    height: 100%;
+    vertical-align:middle;
+     transition:all 1.5s ease 0s;
+}
+.dynamic_container_bottom_one img:hover{
+    // transform:scale(1.2);
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15)
+}
+.dynamic_result{
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+}
+.dynamic_container_bottom_button{
+    width:93%;
+    height: 60px;
+    margin-top:50px;
+}
+.dynamic_container_bottom_button_content{
+    width: 160px;
+    height: 60px;
+    line-height:60px;
+    background: #eeab36;
+    border-radius:20px;
+    margin:0 auto;
+    cursor:pointer;
+}
+.dynamic_container_bottom_button_content p{
+    font-size:30px;
+    color:#fff;
+    font-family:"思源黑体";
+    text-align:center;
+}
+/*公司动态end*/
+/*联系我们begin*/
+.contact{
+    padding:140px 0px;
+    height: 800px;
+}
+.contact_container{
+    width:90%;
+    margin:0px auto;
+}
+.contact_container_top span:nth-child(2){
+    font-family:"思源黑体";
+    font-size:36px;
+    font-weight:bold;
+    color:#333;
+}
+.contact_container_center{
+    width:80%;
+    margin-top:50px;
+}
+.contact_container_bottom{
+    margin-top:50px;
+}
+.contact_container_bottom p{
+    font-size:24px;
+   font-family: 'Times New Roman';
+    color:#666;
+    margin-bottom: 20px;
+}
+
+/*联系我们end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

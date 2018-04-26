@@ -1,0 +1,52 @@
+.holistic {
+    width: 100%;
+    height: 100%;
+    position:relative;
+}
+.screen{
+    width:100%;
+    height: 100%;
+    background: url(../images/banner.png) center center no-repeat;
+    position:fixed;
+}
+.header{
+    width: 100%;
+    height: 140px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,.2);
+    min-width:1500px;
+}
+.headerLeft{
+    width:50%;
+    height: 100%;
+    position:relative;
+}
+.headerLeft img{
+    position:absolute;
+    top:30px;
+    left:50px;
+}
+.headerRight{
+    width:50%;
+    height: 100%;
+}
+.headerRight ul{
+    height: 60px;
+    line-height: 60px;
+    margin:40px 0;
+}
+.headerRight ul li{
+    float:left;
+    margin-right:50px;
+    font-size:28px;
+}
+.headerRight ul li a {
+    color:#fff;
+}
+.headerRight ul li a:hover{
+    font-weight:bold;
+    color:rgba(250,250,250,.7)
+}
+

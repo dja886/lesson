@@ -1,0 +1,260 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+.container {
+  min-width: 1300px;
+}
+.header {
+  min-width: 1300px;
+  background-color: #9b9898;
+}
+.slideshow {
+  position: absolute!important;
+}
+.shapes {
+  width: 100%;
+  height: 800px;
+  position: absolute!important;
+  top: 0px;
+  left: 0px!important;
+}
+.slide__bg--8 {
+  background-color: #d6d1d1!important;
+}
+.synopsis {
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.synopsis_content {
+  width: 1000px;
+  margin: auto;
+}
+.synopsis_text {
+  width: 981px;
+  height: 226px;
+}
+.welfare {
+  height: 1000px;
+  padding-top: 102px;
+  background-color: #eeeeee;
+}
+.welfare .welfare_top {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.welfare .welfare_top h2 {
+  font-size: 50px;
+  color: #333;
+}
+.welfare .welfare_top h2 span {
+  width: 50px;
+  height: 8px;
+  margin: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c3c3c3;
+}
+.welfare .welfare_slideshow {
+  height: 350px;
+}
+.welfare .welfare_slideshow .swiper-slide .img1 {
+  width: 23%;
+  margin: 0 1%;
+  float: left;
+  box-sizing: border-box;
+  padding: 13px 13px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px 5px #c6c6c6;
+}
+.welfare .welfare_slideshow .swiper-slide .img1 img {
+  width: 100%;
+}
+.welfare .welfare_slideshow .swiper-slide .img1 img:hover {
+  transform: scaleX(2, 4);
+}
+.welfare .welfare_slideshow .swiper-slide .img1 p {
+  text-align: center;
+  margin: 8px 0px;
+  letter-spacing: 1.5px;
+}
+.welfare .welfare_slideshow .swiper-slide .img1:hover {
+  position: relative;
+  top: 2px;
+  box-shadow: 0px 20px;
+}
+.welfare .welfare_text {
+  width: 100%;
+  height: 450px;
+}
+.post {
+  background: #fff;
+}
+.post .post_top {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.post .post_top h2 {
+  font-size: 50px;
+  color: #333;
+}
+.post .post_top h2 span {
+  width: 50px;
+  height: 8px;
+  margin: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c3c3c3;
+}
+.post .post_intro {
+  width: 100%;
+}
+.post .post_intro .post_intro_content {
+  width: 85%;
+  margin: 50px auto 0px;
+}
+.post .post_intro .list {
+  margin-top: 20px;
+  background-color: #ededed;
+}
+.post .post_intro .post_intro_headline {
+  font-size: 36px;
+  color: #666;
+  margin-bottom: 30px;
+}
+.post .post_intro .list_content {
+  width: 100%;
+  height: 120px;
+  background-color: #dcdcdc;
+}
+.post .post_intro .post_intro_left {
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  color: #fff;
+  font-family: "PingFang SC medium";
+  padding-left: 40px;
+  float: left;
+}
+.post .post_intro .post_intro_right {
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  color: #fff;
+  font-family: "PingFang SC medium";
+  padding-right: 50px;
+  float: right;
+}
+.post .post_intro .post_intro_right .I_img {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+}
+.post .post_intro .pictxt_title {
+  font-size: 36px;
+  color: #333;
+  font-family: "PingFang SC medium";
+  margin-top: 40px;
+}
+.post .post_intro .pictxt {
+  display: none;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+.post .post_intro .pictxt p {
+  font-size: 30px;
+  color: #666;
+  font-family: "PingFang SC Regular";
+  margin-top: 20px;
+}
+.flow {
+  background: #eeeeee;
+  margin-top: 100px;
+  padding-bottom: 118px;
+}
+.flow .flow_content {
+  width: 77%;
+  margin: 0 auto;
+}
+.flow .flow_content .flow_top {
+  padding-top: 102px;
+  text-align: center;
+}
+.flow .flow_content .flow_top h2 {
+  font-size: 50px;
+  color: #333;
+}
+.flow .flow_content .flow_top h2 span {
+  width: 50px;
+  height: 8px;
+  margin: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c3c3c3;
+}
+.flow .flow_content .flow_main {
+  margin-top: 70px;
+  overflow: hidden;
+}
+.flow .flow_content .flow_main .flow_main_box {
+  float: left;
+  width: 23%;
+  text-align: center;
+}
+.flow .flow_content .flow_main .flow_main_box p {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "PingFang-SC-Regular";
+}
+.flow .flow_content .flow_main span {
+  width: 24px;
+  height: 42px;
+  float: left;
+  margin-top: 88px;
+}
+.flow .flow_content .flow_main span img {
+  width: 24px;
+  height: 24px;
+}
+.flow .flow_content .flow_bottom {
+  margin-top: 50px;
+}
+.relation {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.relation .relation_content {
+  width: 77%;
+  margin: 0 auto;
+}
+.relation .relation_content .relation_top {
+  text-align: center;
+}
+.relation .relation_content .relation_top h2 {
+  font-size: 50px;
+  color: #333;
+}
+.relation .relation_content .relation_top h2 span {
+  width: 50px;
+  height: 8px;
+  margin: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c3c3c3;
+}
+.relation .relation_content .relation_main {
+  margin-top: 80px;
+  font-size: 36px;
+  color: #787878;
+}
+.relation .relation_content .relation_main p {
+  font-family: "Heiti SC" !important;
+  font-weight: 100;
+  margin-top: 10px;
+  letter-spacing: 1.1px;
+}

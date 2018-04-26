@@ -1,0 +1,121 @@
+.holistic{
+
+}
+.icon {
+   width: 1.5em;
+   height: 1.5em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.ChineseMedicine{
+    font-size:32px;
+    font-family:"黑体";
+    color:#666;
+}
+.video_cephalic{
+        width:1240px;
+        height: 698px;
+        margin:100px auto;
+}
+.content_container{
+    height: 1000px;
+}
+/*执业药师begin*/
+.zyys{
+    padding-top:20px;
+    // display:none;
+}
+.content_container_children{
+    width:1240px;
+    height: 100%;
+    margin-top: 50px;
+    margin:0 auto;
+}
+.content_container_children_ul ul li{
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    text-align:center;
+    font-size:40px;
+    color:#666;
+    font-family:"microsoftYaHei";
+    border-radius: 40px;
+}
+.content_container_children_ul ul li:hover{
+    background-color:#fd8b0e;
+    color:#fff;
+    cursor: pointer;
+}
+.content_container_children_file_video{
+    width:800px;
+    height:500px;
+    margin:0 auto;
+}
+.content_container_children_file_video_one{
+    margin-top:20px;
+}
+.topOne{
+    width:60px;
+    height: 60px;
+    border:1px solid rgba(255, 255, 255, 0.2);
+    background-color:rgba(0, 0, 0, 0.15);
+    border-radius:50%;
+    position:fixed;
+    // right: 50px;
+    // bottom: 36px;
+    right:2%;
+    bottom:2%;
+    cursor:pointer;
+    z-index:999;
+    box-sizing: border-box;
+    display:none;
+    // transition:all 1s;
+}
+.topOne_span{
+    width:30px;
+    height: 30px;
+    display:block;
+    background: url(../images/top_2.png) 0 0 no-repeat;
+    background-size:100% 100%;
+    margin:15px auto;
+}
+/*执业药师end*/
+/*中医专长begin*/
+.speciality{
+    padding-top:20px;
+    display:none;
+}
+/*中医专长end*/
+/*执业医师begin*/
+.certifiedDoctor{
+    padding-top:20px;
+    display:none;
+}
+/*执业医师end*/
+/*卫生资格begin*/
+.qualification{
+    padding-top:20px;
+    display:none;
+}
+/*卫生资格end*/
+/*其他begin*/
+.elsePage{
+    padding-top:20px;
+    display: none;
+}
+
+
+/*其他end*/
+
+
+
+
+
+
+
+
+
+
+

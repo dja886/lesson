@@ -1,0 +1,268 @@
+//html {
+//font-size: 1rem;
+//}
+//
+//@include media-breakpoint-up(sm) {
+//html {
+//  font-size: 1.2rem;
+//}
+//}
+//
+//@include media-breakpoint-up(md) {
+//html {
+//  font-size: 1.4rem;
+//}
+//}
+//
+//@include media-breakpoint-up(lg) {
+//html {
+//  font-size: 1.6rem;
+//}
+//}
+//
+//
+//// Small devices (landscape phones, 576px and up)
+//@media (min-width: 576px) { }
+//
+//// Medium devices (tablets, 768px and up)
+//@media (min-width: 768px) { }
+//
+//// Large devices (desktops, 992px and up)
+//@media (min-width: 992px) { }
+//
+//// Extra large devices (large desktops, 1200px and up)
+//@media (min-width: 1200px) { }
+//
+// .container-fluid{
+//   padding:0px;
+//   height: 1080px;
+////   background-color:skyblue;
+// }
+//.bg-light{
+//   background-color:#bcbcbc!important;
+//}
+//.mr-auto,.mx-auto{
+//margin-right: 0px!important;
+//}
+//
+
+
+//pc端css
+//清除浮动
+　.clearfix:before,.clearfix:after {
+                  content: "";
+                  display: block;
+                  clear: both;
+        }
+            .clearfix {
+                  zoom: 1;
+            }
+body{
+    background-color:#ededed;
+}
+.container{
+    min-width: 1300px;
+    .header{
+    background-color:#bcbcbc;
+    }
+    .search{
+        margin:70px auto 0px;
+        width:1300px;
+        
+        .search_left{
+            float: left;
+            width:77%;
+            height:90px;
+            border-radius: 10px;
+            position: relative;
+            .search_left_i{
+                width:200px;
+                height: 90px;
+                background:linear-gradient(to right,#08ebfe,#46b4fe);
+                border-radius: 10px;
+                position: absolute;
+                left:0px;
+                top:0px;
+                text-align: center;
+                line-height: 90px;
+                color:#fff;
+                font-size:36px;
+                box-shadow: 2px 2px 1px 2px #93ccf3;
+                cursor:pointer;
+            }
+            .search_Ipt{
+                width:100%;
+                height: 100%;
+                padding-left: 230px;
+                font-size:30px ;
+                color:#999;
+                border:2px solid #40b9fe;
+                border-radius: 10px;
+                box-sizing: border-box;
+            }
+        }
+        .search_right{
+            width:230px;
+            height:90px;
+            float: left;
+            margin-left: 2%;
+            position: relative;
+            .search_right_i{
+                width:80px;
+                height: 80px;
+                position: absolute;
+                top:10px;
+               .img{
+                   width:100%;
+                   height: 100%;
+               }
+            }
+            .search_p{
+                width:100%;
+                height: 50px;
+                line-height: 50px;
+                float: right;
+                margin-top: 20px;
+                background-color: #fff;
+                padding-left:100px;
+                box-sizing: border-box;
+                border-radius: 40px 0 0 40px;
+            }
+            .search_span{
+                width:12px;
+                height: 6px;
+                position: absolute;
+                top:32px;
+                right: 10px;
+                img{
+                    width:100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .tag{
+//      height: 1000px;
+        margin-top: 35px;
+        .tag_classify_content{
+            width:1300px;
+            margin:0 auto;
+            padding-bottom: 60px;
+            .tag_classify_top{
+                ul{
+                    li{
+                        float: left;
+                        font-size: 24px;
+                        color:#666;
+                        margin:0 25px;
+//                      font-family:"PingFang-SC-Medium";
+                    }
+                }
+            }
+            .tag_classify_center{
+                ul{
+                    li{
+                        float: left;
+                        font-size: 24px;
+                        color:#666;
+                        margin:0 25px;
+//                      font-family:"PingFang-SC-Medium";
+                        margin-top: 30px;
+                    }
+                }
+            }
+            .tag_classify_bottom{
+                ul{
+                    li{
+                       float: left;
+                        font-size: 24px;
+                        color:#666;
+                        margin:0 25px;
+//                      font-family:"PingFang-SC-Medium";
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        .tag_container{
+             width:1300px;
+            margin:0 auto;
+            .tag_container_content{
+                
+                .tag_container_single{
+                    width:30%;
+                    float: left;
+                    box-shadow: 0px 3px 2px 1px rgba(180,180,180,.3);
+                    margin:0 1% 50px;
+                    
+                    .tag_single_img{
+                        width:100%;
+                    }
+                    .tag_container_single_content{
+                        padding:0 30px;
+                        box-sizing: border-box;
+                        .tag_p{
+                        margin-top: 30px;
+                           .tag_single_left{
+                               font-size: 24px;
+                               color:#333;
+                               float: left;
+                           }
+                           .tag_single_right{
+                               float:right
+                           }
+                        }
+                        .tag_single_courseware{
+                            margin-top:20px;
+                            .tag_single_courseware_img{
+                                float: left;
+                            }
+                            .tag_single_courseware_left{
+                                float: left;
+                                font-size:20px;
+                                color:#666;
+                            }
+                            .tag_single_courseware_right{
+                                float: right;
+                                font-size:20px;
+                                color:#666;
+                            }
+                        }
+                        .tag_single_time{
+                          margin-top: 20px;
+                          margin-bottom: 30px;
+                          .tag_single_time_left{
+                             float: left; 
+                             color:#999;
+                             font-size:18px;
+                          }
+                          .tag_single_time_right{
+                              float: right;
+                              color:#999;
+                              font-size:18px;
+                          }
+                          
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

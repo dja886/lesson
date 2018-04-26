@@ -1,0 +1,179 @@
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+body {
+  background-color: #ededed;
+}
+.container {
+  min-width: 1300px;
+}
+.container .header {
+  background-color: #bcbcbc;
+}
+.container .search {
+  margin: 70px auto 0px;
+  width: 1300px;
+}
+.container .search .search_left {
+  float: left;
+  width: 77%;
+  height: 90px;
+  border-radius: 10px;
+  position: relative;
+}
+.container .search .search_left .search_left_i {
+  width: 200px;
+  height: 90px;
+  background: linear-gradient(to right, #08ebfe, #46b4fe);
+  border-radius: 10px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  line-height: 90px;
+  color: #fff;
+  font-size: 36px;
+  box-shadow: 2px 2px 1px 2px #93ccf3;
+  cursor: pointer;
+}
+.container .search .search_left .search_Ipt {
+  width: 100%;
+  height: 100%;
+  padding-left: 230px;
+  font-size: 30px ;
+  color: #999;
+  border: 2px solid #40b9fe;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.container .search .search_right {
+  width: 230px;
+  height: 90px;
+  float: left;
+  margin-left: 2%;
+  position: relative;
+}
+.container .search .search_right .search_right_i {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+}
+.container .search .search_right .search_right_i .img {
+  width: 100%;
+  height: 100%;
+}
+.container .search .search_right .search_p {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  float: right;
+  margin-top: 20px;
+  background-color: #fff;
+  padding-left: 100px;
+  box-sizing: border-box;
+  border-radius: 40px 0 0 40px;
+}
+.container .search .search_right .search_span {
+  width: 12px;
+  height: 6px;
+  position: absolute;
+  top: 32px;
+  right: 10px;
+}
+.container .search .search_right .search_span img {
+  width: 100%;
+  height: 100%;
+}
+.container .tag {
+  margin-top: 35px;
+}
+.container .tag .tag_classify_content {
+  width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.container .tag .tag_classify_content .tag_classify_top ul li {
+  float: left;
+  font-size: 24px;
+  color: #666;
+  margin: 0 25px;
+}
+.container .tag .tag_classify_content .tag_classify_center ul li {
+  float: left;
+  font-size: 24px;
+  color: #666;
+  margin: 0 25px;
+  margin-top: 30px;
+}
+.container .tag .tag_classify_content .tag_classify_bottom ul li {
+  float: left;
+  font-size: 24px;
+  color: #666;
+  margin: 0 25px;
+  margin-top: 30px;
+}
+.container .tag .tag_container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single {
+  width: 30%;
+  float: left;
+  box-shadow: 0px 3px 2px 1px rgba(180, 180, 180, 0.3);
+  margin: 0 1% 50px;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_single_img {
+  width: 100%;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_p {
+  margin-top: 30px;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_p .tag_single_left {
+  font-size: 24px;
+  color: #333;
+  float: left;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_p .tag_single_right {
+  float: right;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_single_courseware {
+  margin-top: 20px;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_single_courseware .tag_single_courseware_img {
+  float: left;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_single_courseware .tag_single_courseware_left {
+  float: left;
+  font-size: 20px;
+  color: #666;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_single_courseware .tag_single_courseware_right {
+  float: right;
+  font-size: 20px;
+  color: #666;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_single_time {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_single_time .tag_single_time_left {
+  float: left;
+  color: #999;
+  font-size: 18px;
+}
+.container .tag .tag_container .tag_container_content .tag_container_single .tag_container_single_content .tag_single_time .tag_single_time_right {
+  float: right;
+  color: #999;
+  font-size: 18px;
+}

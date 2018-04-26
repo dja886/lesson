@@ -1,0 +1,125 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset,i, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;}
+ul, ol{list-style: none;}
+a{color: black; text-decoration:none;}
+body,html{
+    width:100%;
+    height:100%;
+}
+.Fleft{
+    float:left;
+}
+.Fright{
+    float:right;
+}
+.clearfix:before,.clearfix:after {
+                  content: "";
+                  display: block;
+                  clear: both;
+            }
+            .clearfix {
+                  zoom: 1;
+            }
+
+/*菜单导航栏begin*/
+.head{
+    width: 100%;
+    height: 140px;
+    background:rgba(125,125,125,.5);
+    position:relative;
+    z-index: 999;
+    min-width:1300px;
+}
+.headLeft{
+    width: 25%;
+    height: 140px;
+}
+.headLeft a img{
+    position:absolute;
+    top:30px;
+    left:50px;
+}
+.headRight{
+    width:75%;
+    height: 140px;
+    position:relative;
+}
+.headRight ul {
+    height:60px;
+    line-height:60px;
+    margin:40px 0px;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.headRight ul li{
+    font-size:24px;
+    float:left;
+    margin-right:60px;
+}
+.headRight ul li:last-child{
+    margin-right:75px;
+}
+.headRight ul li a {
+    font-family:"微软雅黑";
+    color:#fff;
+}
+.headRight ul li a:hover{
+    font-weight:700;
+    color:rgba(255,255,255,.7)
+}
+/*菜单导航栏end*/
+/*标题前竖线begin*/
+.segmentation{
+    width:120px;
+    height: 8px;
+    background:#eeab36;
+    display: inline-block;
+    margin-top:50px;
+}
+/*标题前竖线end*/
+/*关于我们代码段start*/
+.vertical{
+    width:8px;
+    height: 30px;
+    background:#eeab36;
+    margin-right:20px;
+    display:inline-block;
+}
+/*关于我们代码段end*/
+
+
+/*备案号begin*/
+.reference{
+    height: 50px;
+    background:#fafafa;
+}
+.reference_container{
+    width:200px;
+    height:50px;
+    margin:auto auto;
+    line-height:50px;
+}
+.reference_container p{
+    color:#b0b0b0;
+    font-size:16px;
+    font-family:"思源黑体";
+}
+/*备案号end*/
+/*点击回到顶部begin*/
+
+
+
+/*点击回到顶部end*/
+
+
+
+
+
+
+
+
+
+
+
